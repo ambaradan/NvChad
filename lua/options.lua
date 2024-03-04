@@ -1,3 +1,3 @@
 require "nvchad.options"
 
--- add yours
+-- add yours here!
