@@ -22,12 +22,13 @@ require("lazy").setup({
     import = "nvchad.plugins",
     config = function()
       require "options"
-      dofile(vim.g.base46_cache .. "defaults")
     end,
   },
 
   { import = "plugins" },
 }, lazy_config)
+
+dofile(vim.g.base46_cache .. "defaults")
 
 require "nvchad.autocmds"
 
